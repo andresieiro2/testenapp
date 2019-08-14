@@ -1,0 +1,21 @@
+@import "./variables";
+@import "./bootstrap";
+
+@import "./color-cms/style";
+
+@import "./components/login";
+
+body {
+  background: #d9e0e7;
+  font-size: 12px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #707478;
+  line-height: 1.42857143;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper-content {
+  margin-top: 40px;
+  padding: 20px !important;
+}

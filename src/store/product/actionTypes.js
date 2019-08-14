@@ -1,0 +1,2 @@
+export const LIST_PRODUCTS_LOADED = 'LIST_PRODUCTS_LOADED';
+export const SET_PRODUCT = 'SET_PRODUCT';

@@ -1,0 +1,22 @@
+.fz-xs {font-size: $fz-xs;}
+.fz-sm {font-size: $fz-sm;}
+.fz-md {font-size: $fz-md;}
+.h1 {font-size: $h1;}
+.h2 {font-size: $h2;}
+.h3 {font-size: $h3;}
+.h4 {font-size: $h4;}
+.h5 {font-size: $h5;}
+.h6 {font-size: 28px;}
+.fz-lg {font-size: 46px}
+.fz-xlg {font-size: $fz-xlg;}
+.fz-xxlg {font-size: 70px;}
+.fz-giga {font-size: 72px;}
+.fz-tera {font-size: 84px;}
+
+@include media-breakpoint-up(lg) {
+  .h6 {font-size: $h6;}
+  .fz-lg {font-size: $fz-lg;}
+  .fz-xxlg {font-size: $fz-xxlg;}
+  .fz-giga {font-size: $fz-giga;}
+  .fz-tera {font-size: $fz-tera;}
+}
